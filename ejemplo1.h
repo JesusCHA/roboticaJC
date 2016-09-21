@@ -10,10 +10,12 @@ Q_OBJECT
 public:
     ejemplo1();
     virtual ~ejemplo1();
-    QTimer *temporalizador = new QTimer(this);
+    QTimer *temporizador;
     
 public slots:
 	void doButton();
+	void tiempo();
 };
+
 
 #endif // ejemplo1_H

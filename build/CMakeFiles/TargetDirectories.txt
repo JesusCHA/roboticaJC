@@ -1,0 +1,7 @@
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/install.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/list_install_components.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/rebuild_cache.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/install/local.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/install/strip.dir
+/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/edit_cache.dir
