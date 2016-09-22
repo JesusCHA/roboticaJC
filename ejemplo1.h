@@ -13,7 +13,8 @@ public:
     QTimer *temporizador;
     
 public slots:
-	void doButton();
+	void stopButton();
+	void startButton();
 	void tiempo();
 	void barra();
     private slots:
