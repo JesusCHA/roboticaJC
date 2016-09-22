@@ -3,6 +3,7 @@
 
 #include <QtGui>
 #include "ui_counterDlg.h"
+#include "myqtimer.h"
 
 class ejemplo1 : public QWidget, public Ui_Counter
 {
@@ -10,7 +11,7 @@ Q_OBJECT
 public:
     ejemplo1();
     virtual ~ejemplo1();
-    QTimer *temporizador;
+    MyQtimer *temporizador;
     
 public slots:
 	void stopButton();

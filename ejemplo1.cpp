@@ -7,7 +7,9 @@ ejemplo1::ejemplo1(): Ui_Counter()
 	connect(stop, SIGNAL(clicked()), this, SLOT(stopButton()) );
 	connect(start, SIGNAL(clicked()), this, SLOT(startButton()) );
 	connect(horizontalSlider, SIGNAL(sliderMoved(int)), this, SLOT(barra()));
-	temporizador= new QTimer(this);
+	
+	temporizador= new MyQtimer();
+	connect(temporizador, SIGNAL(timeout()),this, SLOT(tiempo()));
 	
 }
 
@@ -21,7 +23,7 @@ void ejemplo1::stopButton()
 }
 void ejemplo1::startButton()
 {
-	connect(temporizador, SIGNAL(timeout()),this, SLOT(tiempo()));
+	
 	temporizador->start(1000-horizontalSlider->value());
 	qDebug() << "start";
 }
