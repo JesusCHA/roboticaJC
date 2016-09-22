@@ -15,6 +15,8 @@ public:
 public slots:
 	void doButton();
 	void tiempo();
+	void barra();
+    private slots:
 };
 
 
