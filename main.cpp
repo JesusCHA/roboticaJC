@@ -1,6 +1,6 @@
 #include <QtGui/QApplication>
 #include "ejemplo1.h"
-/*
+
 
 int main(int argc, char** argv)
 {
@@ -8,4 +8,4 @@ int main(int argc, char** argv)
     ejemplo1 foo;
     foo.show();
     return app.exec();
-}*/
+}
