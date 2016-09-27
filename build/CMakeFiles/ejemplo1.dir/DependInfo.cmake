@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jesusuiano/robotica/roboticaJC/ejemplo1.cpp" "/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
   "/home/jesusuiano/robotica/roboticaJC/main.cpp" "/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir/main.cpp.o"
   "/home/jesusuiano/robotica/roboticaJC/build/moc_ejemplo1.cxx" "/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/jesusuiano/robotica/roboticaJC/build/moc_myqtimer.cxx" "/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o"
+  "/home/jesusuiano/robotica/roboticaJC/myqtimer.cpp" "/home/jesusuiano/robotica/roboticaJC/build/CMakeFiles/ejemplo1.dir/myqtimer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

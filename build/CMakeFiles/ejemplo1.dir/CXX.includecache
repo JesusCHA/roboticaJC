@@ -10,6 +10,10 @@
 ../ejemplo1.h
 /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
 
+/home/jesusuiano/robotica/roboticaJC/build/moc_myqtimer.cxx
+../myqtimer.h
+/home/jesusuiano/robotica/roboticaJC/myqtimer.h
+
 /home/jesusuiano/robotica/roboticaJC/ejemplo1.cpp
 ejemplo1.h
 /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
@@ -19,12 +23,24 @@ QtGui
 -
 ui_counterDlg.h
 /home/jesusuiano/robotica/roboticaJC/ui_counterDlg.h
+myqtimer.h
+/home/jesusuiano/robotica/roboticaJC/myqtimer.h
 
 /home/jesusuiano/robotica/roboticaJC/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
 /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
+
+/home/jesusuiano/robotica/roboticaJC/myqtimer.cpp
+myqtimer.h
+/home/jesusuiano/robotica/roboticaJC/myqtimer.h
+
+/home/jesusuiano/robotica/roboticaJC/myqtimer.h
+QObject
+-
+QThread
+-
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
@@ -63,6 +79,10 @@ qpoint.h
 /usr/include/qt4/QtCore/QPointF
 qpoint.h
 /usr/include/qt4/QtCore/qpoint.h
+
+/usr/include/qt4/QtCore/QThread
+qthread.h
+/usr/include/qt4/QtCore/qthread.h
 
 /usr/include/qt4/QtCore/QVariant
 qvariant.h
@@ -1569,6 +1589,10 @@ qprinter.h
 /usr/include/qt4/QtGui/QPushButton
 qpushbutton.h
 /usr/include/qt4/QtGui/qpushbutton.h
+
+/usr/include/qt4/QtGui/QSlider
+qslider.h
+/usr/include/qt4/QtGui/qslider.h
 
 /usr/include/qt4/QtGui/QTransform
 qtransform.h
@@ -3844,6 +3868,8 @@ QtGui/QHeaderView
 QtGui/QLCDNumber
 -
 QtGui/QPushButton
+-
+QtGui/QSlider
 -
 QtGui/QWidget
 -

@@ -3,10 +3,12 @@
 #include "myqtimer.h"
 
 
-MyQtimer::
+MyQtimer::MyQtimer() : QThread()
 {
-	
+active = false;
+period = 1000; 
 }
+
 
 void MyQtimer::start ( int period_ )
 {

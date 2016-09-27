@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "moc_myqtimer.cxx"
   "moc_ejemplo1.cxx"
   "ui_counterDlg.h"
+  "CMakeFiles/ejemplo1.dir/myqtimer.cpp.o"
   "CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
   "CMakeFiles/ejemplo1.dir/main.cpp.o"
+  "CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o"
   "CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
   "ejemplo1.pdb"
   "ejemplo1"

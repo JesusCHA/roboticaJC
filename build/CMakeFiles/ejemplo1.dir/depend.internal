@@ -4,6 +4,7 @@
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
  /home/jesusuiano/robotica/roboticaJC/ejemplo1.cpp
  /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDate
@@ -11,6 +12,7 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
  /usr/include/qt4/QtCore/QObject
  /usr/include/qt4/QtCore/QPoint
  /usr/include/qt4/QtCore/QPointF
+ /usr/include/qt4/QtCore/QThread
  /usr/include/qt4/QtCore/QVariant
  /usr/include/qt4/QtCore/QtCore
  /usr/include/qt4/QtCore/qabstractanimation.h
@@ -194,6 +196,7 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
  /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPrinter
  /usr/include/qt4/QtGui/QPushButton
+ /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QTransform
  /usr/include/qt4/QtGui/QVector3D
  /usr/include/qt4/QtGui/QWidget
@@ -435,6 +438,7 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
 CMakeFiles/ejemplo1.dir/main.cpp.o
  /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
  /home/jesusuiano/robotica/roboticaJC/main.cpp
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDate
@@ -442,6 +446,7 @@ CMakeFiles/ejemplo1.dir/main.cpp.o
  /usr/include/qt4/QtCore/QObject
  /usr/include/qt4/QtCore/QPoint
  /usr/include/qt4/QtCore/QPointF
+ /usr/include/qt4/QtCore/QThread
  /usr/include/qt4/QtCore/QVariant
  /usr/include/qt4/QtCore/QtCore
  /usr/include/qt4/QtCore/qabstractanimation.h
@@ -625,6 +630,7 @@ CMakeFiles/ejemplo1.dir/main.cpp.o
  /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPrinter
  /usr/include/qt4/QtGui/QPushButton
+ /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QTransform
  /usr/include/qt4/QtGui/QVector3D
  /usr/include/qt4/QtGui/QWidget
@@ -866,6 +872,7 @@ CMakeFiles/ejemplo1.dir/main.cpp.o
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
  /home/jesusuiano/robotica/roboticaJC/build/moc_ejemplo1.cxx
  /home/jesusuiano/robotica/roboticaJC/ejemplo1.h
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.h
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QDate
@@ -873,6 +880,7 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
  /usr/include/qt4/QtCore/QObject
  /usr/include/qt4/QtCore/QPoint
  /usr/include/qt4/QtCore/QPointF
+ /usr/include/qt4/QtCore/QThread
  /usr/include/qt4/QtCore/QVariant
  /usr/include/qt4/QtCore/QtCore
  /usr/include/qt4/QtCore/qabstractanimation.h
@@ -1056,6 +1064,7 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
  /usr/include/qt4/QtGui/QPlatformWindow
  /usr/include/qt4/QtGui/QPrinter
  /usr/include/qt4/QtGui/QPushButton
+ /usr/include/qt4/QtGui/QSlider
  /usr/include/qt4/QtGui/QTransform
  /usr/include/qt4/QtGui/QVector3D
  /usr/include/qt4/QtGui/QWidget
@@ -1294,3 +1303,109 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
  /usr/include/qt4/QtGui/qworkspace.h
  /usr/include/qt4/QtGui/qwsembedwidget.h
  ui_counterDlg.h
+CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o
+ /home/jesusuiano/robotica/roboticaJC/build/moc_myqtimer.cxx
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.h
+ /usr/include/qt4/Qt3Support/q3cstring.h
+ /usr/include/qt4/QtCore/QObject
+ /usr/include/qt4/QtCore/QThread
+ /usr/include/qt4/QtCore/qalgorithms.h
+ /usr/include/qt4/QtCore/qatomic.h
+ /usr/include/qt4/QtCore/qatomic_aarch64.h
+ /usr/include/qt4/QtCore/qatomic_alpha.h
+ /usr/include/qt4/QtCore/qatomic_arch.h
+ /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
+ /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
+ /usr/include/qt4/QtCore/qatomic_avr32.h
+ /usr/include/qt4/QtCore/qatomic_bfin.h
+ /usr/include/qt4/QtCore/qatomic_bootstrap.h
+ /usr/include/qt4/QtCore/qatomic_generic.h
+ /usr/include/qt4/QtCore/qatomic_i386.h
+ /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
+ /usr/include/qt4/QtCore/qatomic_m68k.h
+ /usr/include/qt4/QtCore/qatomic_macosx.h
+ /usr/include/qt4/QtCore/qatomic_mips.h
+ /usr/include/qt4/QtCore/qatomic_parisc.h
+ /usr/include/qt4/QtCore/qatomic_powerpc.h
+ /usr/include/qt4/QtCore/qatomic_s390.h
+ /usr/include/qt4/QtCore/qatomic_sh.h
+ /usr/include/qt4/QtCore/qatomic_sh4a.h
+ /usr/include/qt4/QtCore/qatomic_sparc.h
+ /usr/include/qt4/QtCore/qatomic_symbian.h
+ /usr/include/qt4/QtCore/qatomic_vxworks.h
+ /usr/include/qt4/QtCore/qatomic_windows.h
+ /usr/include/qt4/QtCore/qatomic_windowsce.h
+ /usr/include/qt4/QtCore/qatomic_x86_64.h
+ /usr/include/qt4/QtCore/qbasicatomic.h
+ /usr/include/qt4/QtCore/qbytearray.h
+ /usr/include/qt4/QtCore/qchar.h
+ /usr/include/qt4/QtCore/qconfig.h
+ /usr/include/qt4/QtCore/qcoreevent.h
+ /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qglobal.h
+ /usr/include/qt4/QtCore/qiterator.h
+ /usr/include/qt4/QtCore/qlist.h
+ /usr/include/qt4/QtCore/qmap.h
+ /usr/include/qt4/QtCore/qnamespace.h
+ /usr/include/qt4/QtCore/qobject.h
+ /usr/include/qt4/QtCore/qobjectdefs.h
+ /usr/include/qt4/QtCore/qscopedpointer.h
+ /usr/include/qt4/QtCore/qstring.h
+ /usr/include/qt4/QtCore/qstringbuilder.h
+ /usr/include/qt4/QtCore/qthread.h
+CMakeFiles/ejemplo1.dir/myqtimer.cpp.o
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.cpp
+ /home/jesusuiano/robotica/roboticaJC/myqtimer.h
+ /usr/include/qt4/Qt3Support/q3cstring.h
+ /usr/include/qt4/QtCore/QObject
+ /usr/include/qt4/QtCore/QThread
+ /usr/include/qt4/QtCore/qalgorithms.h
+ /usr/include/qt4/QtCore/qatomic.h
+ /usr/include/qt4/QtCore/qatomic_aarch64.h
+ /usr/include/qt4/QtCore/qatomic_alpha.h
+ /usr/include/qt4/QtCore/qatomic_arch.h
+ /usr/include/qt4/QtCore/qatomic_arm.h
+ /usr/include/qt4/QtCore/qatomic_armv5.h
+ /usr/include/qt4/QtCore/qatomic_armv6.h
+ /usr/include/qt4/QtCore/qatomic_armv7.h
+ /usr/include/qt4/QtCore/qatomic_avr32.h
+ /usr/include/qt4/QtCore/qatomic_bfin.h
+ /usr/include/qt4/QtCore/qatomic_bootstrap.h
+ /usr/include/qt4/QtCore/qatomic_generic.h
+ /usr/include/qt4/QtCore/qatomic_i386.h
+ /usr/include/qt4/QtCore/qatomic_ia64.h
+ /usr/include/qt4/QtCore/qatomic_integrity.h
+ /usr/include/qt4/QtCore/qatomic_m68k.h
+ /usr/include/qt4/QtCore/qatomic_macosx.h
+ /usr/include/qt4/QtCore/qatomic_mips.h
+ /usr/include/qt4/QtCore/qatomic_parisc.h
+ /usr/include/qt4/QtCore/qatomic_powerpc.h
+ /usr/include/qt4/QtCore/qatomic_s390.h
+ /usr/include/qt4/QtCore/qatomic_sh.h
+ /usr/include/qt4/QtCore/qatomic_sh4a.h
+ /usr/include/qt4/QtCore/qatomic_sparc.h
+ /usr/include/qt4/QtCore/qatomic_symbian.h
+ /usr/include/qt4/QtCore/qatomic_vxworks.h
+ /usr/include/qt4/QtCore/qatomic_windows.h
+ /usr/include/qt4/QtCore/qatomic_windowsce.h
+ /usr/include/qt4/QtCore/qatomic_x86_64.h
+ /usr/include/qt4/QtCore/qbasicatomic.h
+ /usr/include/qt4/QtCore/qbytearray.h
+ /usr/include/qt4/QtCore/qchar.h
+ /usr/include/qt4/QtCore/qconfig.h
+ /usr/include/qt4/QtCore/qcoreevent.h
+ /usr/include/qt4/QtCore/qfeatures.h
+ /usr/include/qt4/QtCore/qglobal.h
+ /usr/include/qt4/QtCore/qiterator.h
+ /usr/include/qt4/QtCore/qlist.h
+ /usr/include/qt4/QtCore/qmap.h
+ /usr/include/qt4/QtCore/qnamespace.h
+ /usr/include/qt4/QtCore/qobject.h
+ /usr/include/qt4/QtCore/qobjectdefs.h
+ /usr/include/qt4/QtCore/qscopedpointer.h
+ /usr/include/qt4/QtCore/qstring.h
+ /usr/include/qt4/QtCore/qstringbuilder.h
+ /usr/include/qt4/QtCore/qthread.h

@@ -24,22 +24,21 @@
 class MyQtimer : public QThread
 {
     Q_OBJECT
+private:
+	int period;
+	bool active;
+
 public:
 	MyQtimer();
 	virtual ~MyQtimer();
 	void start(int period_);
 	void stop();
-    
-public slots:
-   //void myqTimer();
-    //void cleanupTestCase();
 	
 signals:
 	void timeout();
 	
-private:
-	int period = 100;
-	bool active = false;
+private slots:
+	
 	virtual void run();
 
 };

@@ -248,6 +248,60 @@ moc_ejemplo1.cxx.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 .PHONY : moc_ejemplo1.cxx.s
 
+moc_myqtimer.o: moc_myqtimer.cxx.o
+
+.PHONY : moc_myqtimer.o
+
+# target to build an object file
+moc_myqtimer.cxx.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o
+.PHONY : moc_myqtimer.cxx.o
+
+moc_myqtimer.i: moc_myqtimer.cxx.i
+
+.PHONY : moc_myqtimer.i
+
+# target to preprocess a source file
+moc_myqtimer.cxx.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.i
+.PHONY : moc_myqtimer.cxx.i
+
+moc_myqtimer.s: moc_myqtimer.cxx.s
+
+.PHONY : moc_myqtimer.s
+
+# target to generate assembly for a file
+moc_myqtimer.cxx.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.s
+.PHONY : moc_myqtimer.cxx.s
+
+myqtimer.o: myqtimer.cpp.o
+
+.PHONY : myqtimer.o
+
+# target to build an object file
+myqtimer.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.o
+.PHONY : myqtimer.cpp.o
+
+myqtimer.i: myqtimer.cpp.i
+
+.PHONY : myqtimer.i
+
+# target to preprocess a source file
+myqtimer.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.i
+.PHONY : myqtimer.cpp.i
+
+myqtimer.s: myqtimer.cpp.s
+
+.PHONY : myqtimer.s
+
+# target to generate assembly for a file
+myqtimer.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.s
+.PHONY : myqtimer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +324,12 @@ help:
 	@echo "... moc_ejemplo1.o"
 	@echo "... moc_ejemplo1.i"
 	@echo "... moc_ejemplo1.s"
+	@echo "... moc_myqtimer.o"
+	@echo "... moc_myqtimer.i"
+	@echo "... moc_myqtimer.s"
+	@echo "... myqtimer.o"
+	@echo "... myqtimer.i"
+	@echo "... myqtimer.s"
 .PHONY : help
 
 
