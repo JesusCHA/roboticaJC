@@ -7,6 +7,7 @@ include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 # Sources set
 SET ( SOURCES
   ${SOURCES}
+  myqtimer.cpp
   ejemplo1.cpp
   main.cpp
  )
@@ -14,6 +15,7 @@ SET ( SOURCES
 # Headers set
 SET ( HEADERS
   ${HEADERS}
+  myqtimer.h
   ejemplo1.h
 )
 
